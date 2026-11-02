@@ -1,0 +1,330 @@
+{
+ "title": "मुन्नी और पिंटू की छोटी-सी मज़ेदार बातचीत",
+ "slug": "munni_pintu",
+ "fps": 30,
+ "caption": {
+  "maxWords": 3,
+  "uppercase": true
+ },
+ "characters": {
+  "munni": {
+   "name": "Munni",
+   "color": "#ff6fb5",
+   "design": {
+    "skin": "#eab38c",
+    "hair": {
+     "style": "ponytail",
+     "color": "#2b1a24"
+    },
+    "eyes": "#7b4a2e",
+    "outfit": {
+     "type": "kurta",
+     "color": "#ec4899",
+     "accent": "#fde68a"
+    },
+    "accessory": "none",
+    "eyeSize": 1.05
+   }
+  },
+  "pintu": {
+   "name": "Pintu",
+   "color": "#ffd23f",
+   "design": {
+    "skin": "#d9a07a",
+    "hair": {
+     "style": "messy",
+     "color": "#1c1a24"
+    },
+    "eyes": "#5a3a22",
+    "outfit": {
+     "type": "tee",
+     "color": "#22a565",
+     "accent": "#fde047"
+    },
+    "accessory": "none"
+   }
+  }
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "speaker": "munni",
+   "cast": [
+    "munni",
+    "pintu"
+   ],
+   "location": "room",
+   "time": "evening",
+   "framing": "medium",
+   "camera": "push_in",
+   "expressions": {
+    "munni": "determined",
+    "pintu": "worried"
+   },
+   "line": {
+    "audio": "voice/full_dialogue.mp3",
+    "text": "पिंटू, तुम पढ़ाई क्यों नहीं करते?",
+    "clip": [
+     0,
+     2.622
+    ]
+   },
+   "pre": 0.1,
+   "post": 0.15
+  },
+  {
+   "id": "s02",
+   "speaker": "pintu",
+   "cast": [
+    "pintu"
+   ],
+   "location": "room",
+   "time": "evening",
+   "framing": "close",
+   "camera": "static",
+   "expressions": {
+    "pintu": "happy"
+   },
+   "line": {
+    "audio": "voice/full_dialogue.mp3",
+    "text": "मुन्नी, पढ़ाई तो करता हूँ, लेकिन किताब खोलते ही नींद आ जाती है।",
+    "clip": [
+     2.622,
+     7.256
+    ]
+   },
+   "pre": 0,
+   "post": 0.15,
+   "expr_at": [
+    {
+     "word": 5,
+     "char": "pintu",
+     "expr": "worried"
+    }
+   ],
+   "fx": [
+    {
+     "type": "chibi",
+     "word": 9,
+     "reaction": "sweat",
+     "dur": 1.4
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "speaker": "munni",
+   "cast": [
+    "munni"
+   ],
+   "location": "room",
+   "time": "evening",
+   "framing": "close",
+   "camera": "push_in",
+   "expressions": {
+    "munni": "angry"
+   },
+   "line": {
+    "audio": "voice/full_dialogue.mp3",
+    "text": "तो फिर परीक्षा में क्या लिखोगे?",
+    "clip": [
+     7.256,
+     9.338
+    ]
+   },
+   "pre": 0,
+   "post": 0.15,
+   "fx": [
+    {
+     "type": "zoom_punch",
+     "word": 2
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "speaker": "pintu",
+   "cast": [
+    "munni",
+    "pintu"
+   ],
+   "location": "room",
+   "time": "evening",
+   "framing": "medium",
+   "camera": "pan_right",
+   "expressions": {
+    "pintu": "smug",
+    "munni": "neutral"
+   },
+   "line": {
+    "audio": "voice/full_dialogue.mp3",
+    "text": "वही लिखूँगा जो याद होगा।",
+    "clip": [
+     9.338,
+     11.43
+    ]
+   },
+   "pre": 0,
+   "post": 0.15
+  },
+  {
+   "id": "s05",
+   "speaker": "munni",
+   "cast": [
+    "munni"
+   ],
+   "location": "room",
+   "time": "evening",
+   "framing": "close",
+   "camera": "dutch",
+   "expressions": {
+    "munni": "smug"
+   },
+   "line": {
+    "audio": "voice/full_dialogue.mp3",
+    "text": "और अगर कुछ याद नहीं हुआ तो?",
+    "clip": [
+     11.43,
+     13.702
+    ]
+   },
+   "pre": 0,
+   "post": 0.15,
+   "fx": [
+    {
+     "type": "speed_lines",
+     "word": 3,
+     "dur": 1.2
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "speaker": "pintu",
+   "cast": [
+    "pintu"
+   ],
+   "location": "room",
+   "time": "evening",
+   "framing": "close",
+   "camera": "whip_in",
+   "expressions": {
+    "pintu": "joy"
+   },
+   "line": {
+    "audio": "voice/full_dialogue.mp3",
+    "text": "फिर भगवान का नाम लिखकर कॉपी भर दूँगा!",
+    "clip": [
+     13.702,
+     16.324
+    ]
+   },
+   "pre": 0,
+   "post": 0.15,
+   "fx": [
+    {
+     "type": "chibi",
+     "word": 5,
+     "reaction": "sparkle",
+     "dur": 1.3
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "speaker": "munni",
+   "cast": [
+    "munni",
+    "pintu"
+   ],
+   "location": "room",
+   "time": "evening",
+   "framing": "medium",
+   "camera": "push_in",
+   "expressions": {
+    "munni": "angry",
+    "pintu": "shocked"
+   },
+   "line": {
+    "audio": "voice/full_dialogue.mp3",
+    "text": "अरे बुद्धू, भगवान भी उसी की मदद करते हैं जो मेहनत करता है!",
+    "clip": [
+     16.324,
+     21.508
+    ]
+   },
+   "pre": 0,
+   "post": 0.15,
+   "fx": [
+    {
+     "type": "impact",
+     "word": 1,
+     "text": "BAAM!"
+    },
+    {
+     "type": "shake",
+     "word": 1
+    }
+   ],
+   "expr_at": [
+    {
+     "word": 9,
+     "char": "munni",
+     "expr": "determined"
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "speaker": "pintu",
+   "cast": [
+    "munni",
+    "pintu"
+   ],
+   "location": "room",
+   "time": "evening",
+   "framing": "medium",
+   "camera": "static",
+   "expressions": {
+    "pintu": "determined",
+    "munni": "happy"
+   },
+   "line": {
+    "audio": "voice/full_dialogue.mp3",
+    "text": "अच्छा! तो आज से मेहनत शुरू… लेकिन कल से पक्का!",
+    "clip": [
+     21.508,
+     26.122
+    ]
+   },
+   "pre": 0,
+   "post": 1,
+   "fx": [
+    {
+     "type": "speed_lines",
+     "word": 4,
+     "dur": 1
+    },
+    {
+     "type": "chibi",
+     "word": 7,
+     "char": "munni",
+     "reaction": "anger",
+     "dur": 2.2
+    }
+   ],
+   "expr_at": [
+    {
+     "word": 6,
+     "char": "pintu",
+     "expr": "smug"
+    },
+    {
+     "word": 6,
+     "char": "munni",
+     "expr": "shocked"
+    }
+   ]
+  }
+ ]
+}

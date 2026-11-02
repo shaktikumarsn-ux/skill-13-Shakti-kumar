@@ -1,0 +1,39 @@
+{
+ "munni": {
+  "name": "Munni",
+  "color": "#ff6fb5",
+  "design": {
+   "skin": "#eab38c",
+   "hair": {
+    "style": "ponytail",
+    "color": "#2b1a24"
+   },
+   "eyes": "#7b4a2e",
+   "outfit": {
+    "type": "kurta",
+    "color": "#ec4899",
+    "accent": "#fde68a"
+   },
+   "accessory": "none",
+   "eyeSize": 1.05
+  }
+ },
+ "pintu": {
+  "name": "Pintu",
+  "color": "#ffd23f",
+  "design": {
+   "skin": "#d9a07a",
+   "hair": {
+    "style": "messy",
+    "color": "#1c1a24"
+   },
+   "eyes": "#5a3a22",
+   "outfit": {
+    "type": "tee",
+    "color": "#22a565",
+    "accent": "#fde047"
+   },
+   "accessory": "none"
+  }
+ }
+}
